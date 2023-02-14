@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-$(call inherit-product, device/motorola/jeter/device.mk)
+$(call inherit-product, device/motorola/aljeter/device.mk)
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
@@ -17,8 +17,8 @@ TARGET_BOOT_ANIMATION_RES := 720
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_jeter
-PRODUCT_DEVICE := jeter
+PRODUCT_NAME := lineage_aljeter
+PRODUCT_DEVICE := aljeter
 PRODUCT_BRAND := Motorola
 PRODUCT_MODEL := Moto G6 Play
 PRODUCT_MANUFACTURER := Motorola

@@ -7,7 +7,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/motorola/jeter/jeter-vendor.mk)
+$(call inherit-product, vendor/motorola/aljeter/aljeter-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
@@ -376,7 +376,6 @@ PRODUCT_PACKAGES += \
     libcutils_shim \
     libmemset_shim \
     libqsapshim
-
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \

@@ -1,7 +1,7 @@
 # Clone/Fetch Upstream Device Dependencies
 
 echo "cloning vendor blobs"
-git clone -b lineage-18.1 git@github.com:Team-NoobMaster69/vendor_motorola_jeter.git vendor/motorola/jeter
+git clone -b lineage-18.1 git@github.com:Team-NoobMaster69/vendor_motorola_aljeter.git vendor/motorola/aljeter
 echo ""
 
 # Kernel

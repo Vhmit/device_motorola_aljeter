@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/motorola/jeter
+DEVICE_PATH := device/motorola/aljeter
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := MSM8937
@@ -187,4 +187,4 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
-include vendor/motorola/jeter/BoardConfigVendor.mk
+include vendor/motorola/aljeter/BoardConfigVendor.mk
