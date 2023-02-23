@@ -30,7 +30,9 @@ PRODUCT_COPY_FILES += \
 # DEX
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Settings \
-    SystemUI
+    SystemUI \
+    GcamGo \
+    TrebuchetQuickStep
 
 # Audio
 PRODUCT_PACKAGES += \
